@@ -1,12 +1,14 @@
 # Planejamento Inicial — Sistema de Chamados
 
-1. Descrição do problema e do domínio
+`1. Descrição do problema e do domínio`
+
+## Descrição
 
 A empresa de suporte tecnico enfrenta dificuldades para controlar suas solicitações, pois atualmente utiliza planilhas e mensagens dispersas, o que dificulta localizar chamados, acompanhar seus atendimentos e manter um historico confiável. A nova aplicação devera centralizar o registro e o acompanhamento dos chamados, permitindo que clientes registrem solicitações e acompanhem seu andamento, enquanto a equipe de suporte podera consultar, atualizar e encerrar os chamados. O sistema sera direcionado ao dominio de suporte tecnico e gestão de chamados.
 
-2. Escopo inicial e pessoas usuarias 
+`2. Escopo inicial e pessoas usuarias`
 
-# Funcionalidades incluidas
+## Funcionalidades incluidas
 
 A primeira versão do sistema terá como objetivo atender às operações básicas de gestão de chamados.
 
@@ -15,14 +17,37 @@ A primeira versão do sistema terá como objetivo atender às operações básic
 - atualizar chamados
 - excluir chamados
 
-
-# Evolução futura
+## Evolução futura
 
 Em uma evolução futura, o sistema podera enviar notificações para a pessoa cliente quando houver alteração no status de seu chamado. e a pessoa atendente podera filtrar por chamados.
 
-# Pessoas usuarias
+## Pessoas usuarias
 
-| Pessoa usuária   | Objetivo principal |
+| Pessoa usuária    | Objetivo principal                                  |
+| ----------------- | --------------------------------------------------- |
+| Pessoa cliente:   | Registrar, editar, excluir e acompanhar um chamado. |
+| Pessoa atendente: | Consultar, atualizar chamados.                      |
 
-Pessoa cliente: Registrar, editar, excluir e acompanhar um chamado. 
-Pessoa atendente: Consultar, atualizar chamados.
+`3. Requisitos funcionais e recursos`
+
+## Requisitos Funcionais
+
+**[RF001]** O sistema deve permitir que o usuário crie chamados.
+
+**[RF002]** O sistema deve permitir que o usuário edite chamados.
+
+**[RF003]** O sistema deve permitir que o usuário exclua um chamado (criado por ele).
+
+**[RF004]** O sistema deve permitir que o usuário visualize o status do chamado.
+
+**[RF005]** O sistema deve permitir que o usuário consulte um chamado.
+
+**[RF006]** O sistema deve permitir que o usário atualize o status de um chamado.
+
+## Recursos
+
+| Recursos  | Possíveis informações                                |
+| --------- | ---------------------------------------------------- |
+| Chamados  | ID, Nome do criador, Titulo, Descrição, Status, Data |
+| Cliente   | ID, Nome, Email                                      |
+| Atendente | ID, Nome                                             |
