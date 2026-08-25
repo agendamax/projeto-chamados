@@ -51,3 +51,15 @@ Em uma evolução futura, o sistema podera enviar notificações para a pessoa c
 | Chamados  | ID, Nome do criador, Titulo, Descrição, Status, Data |
 | Cliente   | ID, Nome, Email                                      |
 | Atendente | ID, Nome                                             |
+
+`4. Descrição do fluxo prioritario`
+
+## 5. Fluxo prioritário — Registrar chamado
+
+1. A pessoa cliente acessa a tela de abertura de chamado.
+2. A pessoa cliente informa os dados solicitados, como título e descrição do problema.
+3. A interface web envia as informações preenchidas para a API.
+4. O back-end recebe a solicitação, valida os dados e cria o chamado.
+5. O banco de dados armazena as informações do chamado.
+6. A aplicação retorna a confirmação do registro para a interface.
+7. A interface informa à pessoa cliente que o chamado foi registrado com sucesso.
