@@ -54,7 +54,7 @@ Em uma evolução futura, o sistema podera enviar notificações para a pessoa c
 
 `4. Descrição do fluxo prioritario`
 
-## 5. Fluxo prioritário — Registrar chamado
+## Fluxo prioritário — Registrar chamado
 
 1. A pessoa cliente acessa a tela de abertura de chamado.
 2. A pessoa cliente informa os dados solicitados, como título e descrição do problema.
